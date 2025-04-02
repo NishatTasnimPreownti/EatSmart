@@ -3,20 +3,20 @@ import java.util.Scanner;
 
 class CalorieService {
     public void calculateAndDisplayCalorieGoal(Scanner scanner) {
-        int age = getInt(scanner, "Enter your age: ");
-        String sex = getString(scanner, "Enter your sex (male/female): ");
-        double weight = getDouble(scanner, "Enter your weight in kg: ");
-        double height = getDouble(scanner, "Enter your height in cm: ");
+        int age = getInt(scanner,          "Enter your age              : ");
+        String sex = getString(scanner,    "Enter your sex (male/female): ");
+        double weight = getDouble(scanner, "Enter your weight in kg     : ");
+        double height = getDouble(scanner, "Enter your height in cm     : ");
 
         System.out.println("\nActivity Levels:");
-        System.out.println("1) Sedentary (little or no exercise)");
-        System.out.println("2) Lightly active (light exercise 1–3 days/week)");
-        System.out.println("3) Moderately active (moderate exercise 3–5 days/week)");
-        System.out.println("4) Very active (hard exercise 6–7 days/week)");
-        System.out.println("5) Super active (very intense daily training or physical job)");
+        System.out.println("1. Sedentary (little or no exercise)");
+        System.out.println("2. Lightly active (light exercise 1–3 days/week)");
+        System.out.println("3. Moderately active (moderate exercise 3–5 days/week)");
+        System.out.println("4. Very active (hard exercise 6–7 days/week)");
+        System.out.println("5. Super active (very intense daily training or physical job)");
 
         int activity = getIntInRange(scanner, "Activity Level [1-5]: ", 1, 5);
-        int goal = getIntInRange(scanner, "Goal: 1) Lose, 2) Maintain, 3) Gain: ", 1, 3);
+        int goal = getIntInRange(scanner, "Goal:\n1) Lose weight\n2) Maintain weight\n3) Gain weight\nEnter your choice: ", 1, 3);
 
         double bmr = calculateBMR(sex, weight, height, age);
         double tdee = bmr * getActivityFactor(activity);
@@ -80,7 +80,7 @@ class CalorieService {
                 return scanner.nextDouble();
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input! Please enter a valid number.");
-                scanner.next(); // Clear invalid input
+                scanner.next();
             }
         }
     }
