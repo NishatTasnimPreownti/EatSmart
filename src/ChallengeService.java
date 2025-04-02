@@ -19,7 +19,14 @@ class ChallengeService {
             "Spend 10 minutes meditating!",
             "Take deep breaths for 5 minutes!",
             "Eat mindfully—no distractions during meals!",
-           
+            "Try a new fruit or vegetable!",
+            "Drink herbal tea instead of coffee!",
+            "Go for a bike ride!",
+            "Try a new workout or exercise class!",
+            "Walk 10,000 steps today!",
+            "Do a 30-second plank!",
+            "Avoid added salt in meals!",
+            "Try a new vegetable!"
     );
 
     public void showRandomChallenge() {
