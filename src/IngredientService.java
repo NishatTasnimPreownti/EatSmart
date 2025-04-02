@@ -41,14 +41,17 @@ class IngredientService {
             Map.entry("fruit juice", "whole fruit or infused water"),
             Map.entry("sweetened cereal", "oatmeal or unsweetened cereal"),
             Map.entry("instant noodles", "zucchini noodles or whole grain pasta"),
-            Map.entry("canned soup", "homemade soup or vegetable broth")
+            Map.entry("canned soup", "homemade soup or vegetable broth"),
+            Map.entry("processed snacks", "nuts or seeds"),
+            Map.entry("fast food", "homemade burgers or salads")
+
 
 
     );
 
     public void suggestAlternative(Scanner scanner) {
         System.out.print("Enter a food item to find a healthier alternative: ");
-        String input = scanner.nextLine().toLowerCase();
+        String input = scanner.nextLine().trim().toLowerCase();
 
         String suggestion = swaps.getOrDefault(input, "No healthy alternative found for that item.");
         System.out.println("Alternative: " + suggestion);
