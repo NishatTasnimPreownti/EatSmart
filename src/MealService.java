@@ -1,16 +1,32 @@
-import java.util.Scanner;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 
-class ConsoleCalorieInputHandler implements CalorieInputHandler {
+class MealService {
     private final Scanner scanner;
+    private final Map<Integer, List<String>> mealSuggestions = Map.of(
+            1500, List.of("Greek yogurt with fruit", "\nLentil soup with salad", "\nOatmeal with nuts and berries"),
+            2000, List.of("Grilled chicken with brown rice", "\nVeggie stir-fry with tofu", "\nQuinoa salad with chickpeas"),
+            2500, List.of("Baked salmon with quinoa", "\nChicken burrito bowl with veggies", "\nSteak with roasted sweet potatoes")
+    );
 
-    public ConsoleCalorieInputHandler(Scanner scanner) {
+    public MealService(Scanner scanner) {
         this.scanner = scanner;
     }
 
-    @Override
-    public int getCalorieGoal() {
+    public void suggestMeals() {
+        int calorieGoal = getValidCalorieGoal();
+
+        List<String> meals = mealSuggestions.getOrDefault(
+                calorieGoal < 1500 ? 1500 : (calorieGoal < 2000 ? 2000 : 2500),
+                List.of("Balanced plate: Protein + Veggies + Healthy Carbs")
+        );
+
+        System.out.println("\n🍽 Suggested Meals:");
+        meals.forEach(meal -> System.out.println("✅ " + meal));
+    }
+
+    private int getValidCalorieGoal() {
         while (true) {
             System.out.print("Enter your calorie goal: ");
             if (scanner.hasNextInt()) {
@@ -25,29 +41,4 @@ class ConsoleCalorieInputHandler implements CalorieInputHandler {
             }
         }
     }
-}
-
-class MealService {
-    private final CalorieInputHandler inputHandler;
-    private final Map<Integer, List<String>> mealSuggestions = Map.of(
-            1500, List.of("Greek yogurt with fruit", "Lentil soup with salad", "Oatmeal with nuts and berries"),
-            2000, List.of("Grilled chicken with brown rice", "Veggie stir-fry with tofu", "Quinoa salad with chickpeas"),
-            2500, List.of("Baked salmon with quinoa", "Chicken burrito bowl with veggies", "Steak with roasted sweet potatoes")
-    );
-
-    public MealService(CalorieInputHandler inputHandler) {
-        this.inputHandler = inputHandler;
-    }
-
-    public void suggestMeals() {
-        int calorieGoal = inputHandler.getCalorieGoal();
-        List<String> meals = mealSuggestions.getOrDefault(
-                calorieGoal < 1500 ? 1500 : (calorieGoal < 2000 ? 2000 : 2500),
-                List.of("Balanced plate: Protein + Veggies + Healthy Carbs")
-        );
-
-        System.out.println("\n Suggested Meals:");
-        meals.forEach(meal -> System.out.println("✅ " + meal));
-    }
-
 }

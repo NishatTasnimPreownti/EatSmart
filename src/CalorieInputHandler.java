@@ -1,3 +1,0 @@
-interface CalorieInputHandler {
-    int getCalorieGoal();
-}
