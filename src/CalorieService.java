@@ -56,7 +56,7 @@ class CalorieService {
                 System.out.print(prompt);
                 return scanner.nextInt();
             } catch (InputMismatchException e) {
-                System.out.println("Invalid input! Please enter a valid integer.");
+                System.out.println("⚠️ Invalid input! Please enter a valid integer.");
                 scanner.next();
             }
         }
@@ -67,7 +67,7 @@ class CalorieService {
         do {
             value = getInt(scanner, prompt);
             if (value < min || value > max) {
-                System.out.printf("Invalid choice! Please enter a number between %d and %d.%n", min, max);
+                System.out.printf("⚠️ Invalid choice! Please enter a number between %d and %d.%n", min, max);
             }
         } while (value < min || value > max);
         return value;
@@ -79,7 +79,7 @@ class CalorieService {
                 System.out.print(prompt);
                 return scanner.nextDouble();
             } catch (InputMismatchException e) {
-                System.out.println("Invalid input! Please enter a valid number.");
+                System.out.println("⚠️ Invalid input! Please enter a valid number.");
                 scanner.next();
             }
         }
