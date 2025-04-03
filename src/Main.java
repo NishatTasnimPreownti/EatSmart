@@ -32,6 +32,16 @@ public class Main {
 
     private static void showMenu() {
         System.out.println("\n--- EAT SMART ---");
+        System.out.println("\n");
+        System.out.println("\n");
+        System.out.println(" ███████  █████  ████████     ███████ ███      ███  █████  ██████  ████████");
+        System.out.println(" ██      ██   ██    ██        ██      ████    ████ ██   ██ ██  ██     ██   ");
+        System.out.println(" ██      ██   ██    ██        ██      ██ ██  ██ ██ ██   ██ ██  ██     ██   ");
+        System.out.println(" █████   ███████    ██        ███████ ██  ████  ██ ███████ ██████     ██   ");
+        System.out.println(" ██      ██   ██    ██             ██ ██   ██   ██ ██   ██ ████       ██   ");
+        System.out.println(" ██      ██   ██    ██             ██ ██   ██   ██ ██   ██ ██  ██     ██   ");
+        System.out.println(" ██████  ██   ██    ██        ███████ ██        ██ ██   ██ ██   ██    ██   ");
+        System.out.println("\n");
         System.out.println("1. Calculate BMI");
         System.out.println("2. Get Daily Calorie Goal");
         System.out.println("3. Suggest Meals by Calorie Goal");

@@ -52,7 +52,7 @@ class MealService {
 
         System.out.println("\n🍽 YOUR PERSONALIZED MEAL PLAN :");
         mealPlan.forEach((mealType, meals) -> {
-            System.out.println("\n **********" + mealType + "**********");
+            System.out.println("\n **********  " + mealType + "  **********");
             meals.forEach(meal -> System.out.println("✅ " + meal));
         });
     }
