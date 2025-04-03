@@ -5,9 +5,9 @@ import java.util.Scanner;
 class MealService {
     private final Scanner scanner;
     private final Map<Integer, List<String>> mealSuggestions = Map.of(
-            1500, List.of("Greek yogurt with fruit", "\nLentil soup with salad", "\nOatmeal with nuts and berries"),
-            2000, List.of("Grilled chicken with brown rice", "\nVeggie stir-fry with tofu", "\nQuinoa salad with chickpeas"),
-            2500, List.of("Baked salmon with quinoa", "\nChicken burrito bowl with veggies", "\nSteak with roasted sweet potatoes")
+            1500, List.of("Greek yogurt with fruit", "Lentil soup with salad", "Oatmeal with nuts and berries"),
+            2000, List.of("Grilled chicken with brown rice", "Veggie stir-fry with tofu", "Quinoa salad with chickpeas"),
+            2500, List.of("Baked salmon with quinoa", "Chicken burrito bowl with veggies", "Steak with roasted sweet potatoes")
     );
 
     public MealService(Scanner scanner) {
