@@ -1,6 +1,6 @@
 import java.util.*;
 
-class MealService {
+public class MealService {
     private final Scanner scanner;
     private final LinkedHashMap<Integer, Map<String, List<String>>> mealPlans = new LinkedHashMap<>();
 

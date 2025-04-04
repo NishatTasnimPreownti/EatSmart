@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class BMIService {
+public class BMIService {
     public void calculateAndDisplayBMI(Scanner scanner) {
         double weight = getInput(scanner, "Enter weight in kg: ");
         double heightCm = getInput(scanner, "Enter height in cm: ");

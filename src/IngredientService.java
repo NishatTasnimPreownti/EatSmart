@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class IngredientService {
+public class IngredientService {
     private static final String SWAPS_FILE = "swaps.txt";
     private final Map<String, String> swaps = new HashMap<>();
 

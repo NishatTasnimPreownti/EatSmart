@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.Random;
 
-class ChallengeService {
+public class ChallengeService {
     private final List<String> challenges = List.of(
             "No sugar today!",
             "Drink 8 glasses of water!",
