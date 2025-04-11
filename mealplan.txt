@@ -1,0 +1,146 @@
+# Format: CalorieLevel|MealType|Meal Item
+1000|Breakfast|Boiled egg with toast
+1000|Breakfast|Banana and almond butter
+1000|Breakfast|Oatmeal with honey
+1000|Breakfast|Fruit salad with yogurt
+1000|Lunch|Grilled veggies with hummus
+1000|Lunch|Egg salad wrap
+1000|Lunch|Miso soup with tofu
+1000|Lunch|Lentil and quinoa bowl
+1000|Dinner|Zucchini noodles with marinara
+1000|Dinner|Stir-fried mushrooms
+1000|Dinner|Grilled tofu with greens
+1000|Dinner|Chicken broth soup
+1000|Snacks|Apple slices
+1000|Snacks|Cucumber slices with lemon
+1000|Snacks|Rice cakes with peanut butter
+1000|Snacks|Carrot sticks
+1200|Breakfast|Scrambled eggs with spinach
+1200|Breakfast|Chia pudding with nuts
+1200|Breakfast|Greek yogurt with granola
+1200|Breakfast|Almond butter toast
+1200|Lunch|Grilled fish with steamed veggies
+1200|Lunch|Lentil soup with salad
+1200|Lunch|Quinoa bowl with black beans
+1200|Lunch|Egg salad on rye
+1200|Dinner|Vegetable stir-fry with tofu
+1200|Dinner|Chicken salad with vinaigrette
+1200|Dinner|Stuffed bell peppers
+1200|Dinner|Tomato and lentil stew
+1200|Snacks|Cottage cheese with berries
+1200|Snacks|Handful of almonds
+1200|Snacks|Rice cakes with hummus
+1200|Snacks|Cherry tomatoes
+1400|Breakfast|Whole grain cereal with milk
+1400|Breakfast|Smoothie with oats and banana
+1400|Breakfast|Poached eggs on toast
+1400|Breakfast|Fruit and nut bowl
+1400|Lunch|Chickpea and avocado salad
+1400|Lunch|Grilled tofu wrap
+1400|Lunch|Bulgur wheat with vegetables
+1400|Lunch|Stuffed zucchini boats
+1400|Dinner|Spinach and ricotta pasta
+1400|Dinner|Vegetarian chili
+1400|Dinner|Fish fillet with greens
+1400|Dinner|Tofu curry with rice
+1400|Snacks|Low-fat yogurt
+1400|Snacks|Peanut butter on crackers
+1400|Snacks|Trail mix
+1400|Snacks|Baked sweet potato chips
+1500|Breakfast|Oatmeal with nuts and berries
+1500|Breakfast|Smoothie with protein powder
+1500|Breakfast|Avocado toast with eggs
+1500|Breakfast|Cottage cheese with peaches
+1500|Lunch|Grilled chicken with brown rice
+1500|Lunch|Tuna wrap with whole wheat tortilla
+1500|Lunch|Vegetable soup with lentils
+1500|Lunch|Chickpea wrap
+1500|Dinner|Quinoa salad with chickpeas
+1500|Dinner|Turkey and hummus wrap
+1500|Dinner|Tofu and vegetable curry
+1500|Dinner|Stuffed mushrooms
+1500|Snacks|Apple with peanut butter
+1500|Snacks|Boiled eggs
+1500|Snacks|Low-fat cheese stick
+1500|Snacks|Baked kale chips
+1700|Breakfast|Protein pancakes with banana
+1700|Breakfast|Muesli with almond milk
+1700|Breakfast|Frittata with veggies
+1700|Breakfast|Granola and yogurt parfait
+1700|Lunch|Shrimp salad bowl
+1700|Lunch|Grilled chicken sandwich
+1700|Lunch|Spaghetti with marinara
+1700|Lunch|Baked falafel wrap
+1700|Dinner|Grilled salmon with couscous
+1700|Dinner|Beef stir-fry with broccoli
+1700|Dinner|Vegetable risotto
+1700|Dinner|Lentil shepherd’s pie
+1700|Snacks|Protein bar
+1700|Snacks|Grapes with cheese
+1700|Snacks|Oats with dried fruit
+1700|Snacks|Chia pudding
+1800|Breakfast|Egg and veggie omelet
+1800|Breakfast|Pancakes with almond butter
+1800|Breakfast|Granola with milk
+1800|Breakfast|Breakfast burrito
+1800|Lunch|Chicken and sweet potato bowl
+1800|Lunch|Tofu stir-fry with brown rice
+1800|Lunch|Bulgur wheat with lentils
+1800|Lunch|Grilled turkey sandwich
+1800|Dinner|Greek salad with grilled lamb
+1800|Dinner|Grilled shrimp with quinoa
+1800|Dinner|Salmon with roasted veggies
+1800|Dinner|Curry with brown rice
+1800|Snacks|Handful of mixed nuts
+1800|Snacks|Yogurt with flaxseeds
+1800|Snacks|Cucumber slices with tzatziki
+1800|Snacks|Frozen grapes
+2000|Breakfast|Avocado toast with eggs
+2000|Breakfast|Protein smoothie with peanut butter
+2000|Breakfast|Scrambled eggs with whole wheat toast
+2000|Breakfast|Granola parfait
+2000|Lunch|Beef and broccoli stir-fry
+2000|Lunch|Pasta with turkey meatballs
+2000|Lunch|Buddha bowl with grilled tofu
+2000|Lunch|Prawn stir-fry with noodles
+2000|Dinner|Salmon with roasted vegetables
+2000|Dinner|Steak fajitas with whole wheat tortillas
+2000|Dinner|Lamb kebabs with couscous
+2000|Dinner|Roasted duck breast
+2000|Snacks|Dark chocolate with almonds
+2000|Snacks|Cheese and whole grain crackers
+2000|Snacks|Banana with almond butter
+2000|Snacks|Popcorn
+2200|Breakfast|Pancakes with syrup and nuts
+2200|Breakfast|Scrambled eggs with sausage
+2200|Breakfast|Oatmeal with banana and honey
+2200|Breakfast|Egg sandwich with cheese
+2200|Lunch|Chicken burger with whole wheat bun
+2200|Lunch|Pasta salad with tuna
+2200|Lunch|Grilled meat with couscous
+2200|Lunch|Cheesy bean wrap
+2200|Dinner|Beef steak with mashed potatoes
+2200|Dinner|Creamy chicken pasta
+2200|Dinner|Grilled salmon with rice and beans
+2200|Dinner|Meatloaf with green beans
+2200|Snacks|Peanut butter toast
+2200|Snacks|Greek yogurt with granola
+2200|Snacks|Fruit and nut bar
+2200|Snacks|Energy bites
+2500|Breakfast|Peanut butter toast with banana
+2500|Breakfast|Omelet with whole wheat toast
+2500|Breakfast|Protein pancakes with Greek yogurt
+2500|Breakfast|Smoothie bowl with granola
+2500|Lunch|Baked tilapia with rice and beans
+2500|Lunch|Chicken burrito bowl with veggies
+2500|Lunch|Quinoa and grilled tofu wrap
+2500|Lunch|Tuna melt sandwich
+2500|Dinner|Lamb chops with mashed potatoes
+2500|Dinner|Salmon tacos with avocado slaw
+2500|Dinner|Chicken Alfredo with whole wheat pasta
+2500|Dinner|Beef stew with barley
+2500|Snacks|Granola with Greek yogurt
+2500|Snacks|Smoothie with banana and almond butter
+2500|Snacks|Trail mix with dried fruit
+2500|Snacks|Whole grain muffins
+
