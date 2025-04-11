@@ -39,7 +39,7 @@ public class Main {
         System.out.println("1. Calculate BMI");
         System.out.println("2. Get Daily Calorie Goal");
         System.out.println("3. Suggest Meals by Calorie Goal");
-        System.out.println("4. Ingredient Swap");
+        System.out.println("4. Healthy Substitutes");
         System.out.println("5. Daily Challenge");
         System.out.println("6. Exit");
         System.out.print("Choose an option: ");
