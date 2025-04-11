@@ -45,7 +45,6 @@ public class ChallengeService {
 
         LocalDate startDate = LocalDate.now();
 
-        // Print table header
         System.out.println("\nWeekly Challenge Schedule:");
         System.out.println("+----------------------+----------------------------------------------+");
         System.out.println("|        Date          |                  Challenge                   |");
