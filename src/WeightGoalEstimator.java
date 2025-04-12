@@ -23,5 +23,6 @@ class WeightGoalEstimator {
                 (goal == 1 ? "lose" : "gain"), targetKg, months, days);
         System.out.println("Target date: " + targetDate.format(formatter));
     }
+
 }
 

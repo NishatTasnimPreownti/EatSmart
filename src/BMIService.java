@@ -25,7 +25,7 @@ public class BMIService {
         else if (bmi < 18.5)
             return "Underweight (Mild thinness)";
         else if (bmi < 25.0)
-            return "Normal range";
+            return "Normal range (Healthy weight)";
         else if (bmi < 30.0)
             return "Overweight (Pre-obese)";
         else if (bmi < 35.0)
