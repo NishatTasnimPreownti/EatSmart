@@ -36,6 +36,8 @@ public class MealService {
 
     public void suggestMeals() {
         int calorieGoal = getValidCalorieGoal();
+        if (calorieGoal == -1) return;
+
         Map<String, List<String>> mealPlan = findClosestMealPlan(calorieGoal);
 
         if (mealPlan == null || mealPlan.isEmpty()) {
@@ -43,13 +45,22 @@ public class MealService {
             return;
         }
 
-        System.out.println("\nYOUR PERSONALIZED MEAL PLAN :");
-        mealPlan.forEach((mealType, meals) -> {
-            System.out.println("\n**********  " + mealType + "  **********");
+        System.out.println("\nYOUR PERSONALIZED MEAL PLAN (" + calorieGoal + " Calories):");
+
+        for (String mealType : mealPlan.keySet()) {
+            List<String> meals = mealPlan.get(mealType);
+
+            System.out.println("\n══════════════ " + mealType.toUpperCase() + " ══════════════");
+            System.out.println("------------------------------------------------------------");
+            System.out.printf("| %-3s | %-50s |\n", "No", "Meal Item");
+            System.out.println("|-----|----------------------------------------------------|");
+
+            int count = 1;
             for (String meal : meals) {
-                System.out.println( meal);
+                System.out.printf("| %-3d | %-50s |\n", count++, meal);
             }
-        });
+            System.out.println("------------------------------------------------------------");
+        }
     }
 
     private int getValidCalorieGoal() {

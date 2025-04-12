@@ -1,4 +1,3 @@
-# Format: CalorieLevel|MealType|Meal Item
 1000|Breakfast|Boiled egg with toast
 1000|Breakfast|Banana and almond butter
 1000|Breakfast|Oatmeal with honey

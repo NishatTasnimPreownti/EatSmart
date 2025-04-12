@@ -13,7 +13,7 @@ public class CalorieService {
 
     public void calculateAndDisplayCalorieGoal() {
         int age = getInt("Enter your age: ");
-        String sex = getString("Enter your sex (male/female): ");
+        String sex = getValidSex("Enter your sex (male/female): ");
         double weight = getDouble("Enter your weight in kg: ");
         double height = getDouble("Enter your height in cm: ");
 
@@ -77,8 +77,15 @@ public class CalorieService {
         }
     }
 
-    private String getString(String prompt) {
-        System.out.print(prompt);
-        return scanner.next().trim();
+    private String getValidSex(String prompt) {
+        while (true) {
+            System.out.print(prompt);
+            String input = scanner.next().trim().toLowerCase();
+            if (input.equals("male") || input.equals("female")) {
+                return input;
+            } else {
+                System.out.println("⚠️ Invalid input for sex. Only 'male' or 'female' are allowed.");
+            }
+        }
     }
 }
