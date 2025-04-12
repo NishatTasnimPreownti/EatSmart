@@ -33,3 +33,49 @@ EatSmart empowers users to make informed and sustainable health choices. Whether
 - Offers random wellness challenges to keep users engaged.
 - Users can view a challenge for the day or a full weekly schedule.
 
+---
+
+## 🚀 How to Use
+
+> 🖥️ Make sure you have **Java 17 or later** installed.
+
+### 🔧 Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/your-username/EatSmart.git
+cd EatSmart
+⚙️ Step 2: Compile the Application
+bash
+javac Main.java
+This will also compile all the required service classes automatically.
+
+▶️ Step 3: Run the Application
+bash
+java Main
+💡 Step 4: Follow the Menu
+Once the app starts, you'll see a menu like this:
+
+╔═══════════════════════════╗
+║      E A T  S M A R T     ║
+╚═══════════════════════════╝
+1. Calculate BMI
+2. Get Daily Calorie Goal
+3. Suggest Meals by Calorie Goal
+4. Healthy Substitutes
+5. Daily Challenge
+6. Exit
+Use the number keys to select options and follow the on-screen prompts.
+
+Example Inputs:
+
+Enter male or female when asked for sex.
+
+Enter calorie goals above 500.
+
+Type back anytime during input to return to the main menu.
+
+License
+This project is open-source under the MIT License.
+
+Author
+EatSmart was developed by Nishat Tasnim as a final semester project to promote awareness around healthy habits using interactive software.
