@@ -41,7 +41,7 @@ EatSmart empowers users to make informed and sustainable health choices. Whether
 
 ### 🔧 Step 1: Clone the Repository
 
-```bash
+bash
 https://github.com/NishatTasnimPreownti/EatSmart.git
 cd EatSmart
 ### ⚙️ Step 2: Compile the Application
@@ -55,15 +55,15 @@ java Main
 ### 💡 Step 4: Follow the Menu
 Once the app starts, you'll see a menu like this:
 
-╔═══════════════════════════╗
-║      E A T  S M A R T     ║
-╚═══════════════════════════╝
-1. Calculate BMI
-2. Get Daily Calorie Goal
-3. Suggest Meals by Calorie Goal
-4. Healthy Substitutes
-5. Daily Challenge
+ **EAT SMART**
+
+1. Calculate BMI  
+2. Get Daily Calorie Goal  
+3. Suggest Meals by Calorie Goal  
+4. Healthy Substitutes  
+5. Daily Challenge  
 6. Exit
+
 Use the number keys to select options and follow the on-screen prompts.
 
 Example Inputs:
