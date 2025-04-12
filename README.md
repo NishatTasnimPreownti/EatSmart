@@ -44,15 +44,15 @@ EatSmart empowers users to make informed and sustainable health choices. Whether
 ```bash
 https://github.com/NishatTasnimPreownti/EatSmart.git
 cd EatSmart
-⚙️ Step 2: Compile the Application
+### ⚙️ Step 2: Compile the Application
 bash
 javac Main.java
 This will also compile all the required service classes automatically.
 
-▶️ Step 3: Run the Application
+### ▶️ Step 3: Run the Application
 bash
 java Main
-💡 Step 4: Follow the Menu
+### 💡 Step 4: Follow the Menu
 Once the app starts, you'll see a menu like this:
 
 ╔═══════════════════════════╗
