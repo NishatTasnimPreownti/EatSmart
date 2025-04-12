@@ -42,7 +42,7 @@ EatSmart empowers users to make informed and sustainable health choices. Whether
 ### 🔧 Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/EatSmart.git
+https://github.com/NishatTasnimPreownti/EatSmart.git
 cd EatSmart
 ⚙️ Step 2: Compile the Application
 bash
