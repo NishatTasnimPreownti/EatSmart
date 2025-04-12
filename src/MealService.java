@@ -24,7 +24,7 @@ public class MealService {
                 String mealType = parts[1].trim();
                 String mealItem = parts[2].trim();
 
-                mealPlans.putIfAbsent(calories, new HashMap<>());
+                mealPlans.putIfAbsent(calories, new LinkedHashMap<>());
                 Map<String, List<String>> categoryMap = mealPlans.get(calories);
                 categoryMap.putIfAbsent(mealType, new ArrayList<>());
                 categoryMap.get(mealType).add(mealItem);
@@ -47,7 +47,11 @@ public class MealService {
 
         System.out.println("\nYOUR PERSONALIZED MEAL PLAN (" + calorieGoal + " Calories):");
 
-        for (String mealType : mealPlan.keySet()) {
+        List<String> fixedOrder = Arrays.asList("Breakfast", "Lunch", "Dinner", "Snacks");
+
+        for (String mealType : fixedOrder) {
+            if (!mealPlan.containsKey(mealType)) continue;
+
             List<String> meals = mealPlan.get(mealType);
 
             System.out.println("\n══════════════ " + mealType.toUpperCase() + " ══════════════");
