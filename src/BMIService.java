@@ -13,8 +13,16 @@ public class BMIService {
     }
 
     private double getInput(Scanner scanner, String prompt) {
-        System.out.print(prompt);
-        return scanner.nextDouble();
+        while (true) {
+            System.out.print(prompt);
+            String input = scanner.nextLine().trim();
+
+            try {
+                return Double.parseDouble(input);
+            } catch (NumberFormatException e) {
+                System.out.println("⚠️ Invalid input! Please enter a number.");
+            }
+        }
     }
 
     private String getBMICategory(double bmi) {
@@ -36,4 +44,3 @@ public class BMIService {
             return "Obese (Class III)";
     }
 }
-
